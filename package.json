@@ -1,0 +1,29 @@
+{
+  "name": "13xlabs-chatgpt-extension",
+  "version": "1.0.2",
+  "description": "Easy tools 13Xlabs ChatGPT Extension",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rmcc3/ChatGPT-pdf.git"
+  },
+  "keywords": [
+    "chatgpt",
+    "pdf",
+    "png",
+    "openai",
+    "gpt-3"
+  ],
+  "author": "13XLabs",
+  "license": "MIT",
+  "homepage": "https://github.com/rmcc3/ChatGPT-pdf#readme",
+  "devDependencies": {
+    "jest": "^29.4.3",
+    "jest-environment-jsdom": "^29.4.3"
+  },
+  "dependencies": {
+    "tailwindcss": "^3.2.7"
+  }
+}

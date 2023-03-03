@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "13XLabs ChatGPT Extension",
+  "description": "ChatGPT Extensions by 13XLabs",
+  "version": "1.0.2",
+  "author": "13XLabs",
+  "icons": {
+    "48": "icons/48.png"
+  },
+  "permissions": ["storage", "activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup/popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://chat.openai.com/*"],
+      "js": [
+        "scripts/html2canvas.min.js",
+        "scripts/jspdf.umd.min.js",
+        "content_script.js"
+      ]
+    }
+  ],
+  "options_page": "options/options.html"
+}
