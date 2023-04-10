@@ -85,7 +85,7 @@ function addShareLinkButton(actionsArea, TryAgainButton) {
   const exportHtml = TryAgainButton.cloneNode(true);
   exportHtml.id = DOWNLOAD_HTML_BUTTON_SELECTOR;
   exportHtml.setAttribute("share-ext", "true");
-  exportHtml.innerText = "Share Link";
+  exportHtml.innerText = "Share URL";
   exportHtml.onclick = sendRequest;
   actionsArea.appendChild(exportHtml);
 }
@@ -97,7 +97,7 @@ function shouldRemoveButtons() {
   }
   const inConversation = document.querySelector(CONVERSATION_SELECTOR);
   if (inConversation) {
-    return true;
+    return false;
   }
   return false;
 }

@@ -1,6 +1,6 @@
 {
   "name": "13xlabs-chatgpt-extension",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Easy tools 13Xlabs ChatGPT Extension",
   "scripts": {
     "test": "jest"
