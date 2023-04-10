@@ -9,7 +9,7 @@ This tool is particularly useful for researchers, developers, and anyone who wan
 
 ### Install to Chrome/Edge
 
-1. Download `chrome-chatgpt-v1.0.2.zip`
+1. Download `chrome-chatgpt-v1.0.3.zip`
 2. Unzip the downloaded file to extract the extension files.
 3. In Chrome/Edge go to the extensions page (`chrome://extensions` or `edge://extensions`).
 4. Enable Developer mode by clicking the toggle switch in the top right corner of the page.
